@@ -1,5 +1,248 @@
+.barra{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 1px;
+    background-color: #000767;
+    height: 70px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+
+@font-face {
+    font-family: texas ;
+    src: url(BetterTogether-owP2B.otf);
+}
+.logo{
+    
+    font-family: 'jv', Times, serif;
+    font-size: 1.5vw;
+    margin-bottom: 30px;
+   
+    color: rgb(4, 0, 0);
+   
+
+    
+
+   
+
+
+}
+
+
 html{
-    background-image: url(https://img.freepik.com/vetores-gratis/fundo-escuro-com-conceito-de-detalhes-dourados_23-2148419779.jpg);
-    left: 40px;
-    width: 40px;
+    background-size: cover;
+}
+
+
+
+
+
+
+.barra p{
+    bottom: 50px;
+}
+.imagem{
+    z-index: 3;
+}
+.zaca{
+    width: 70px;
+   
+}
+
+.foto{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    top: 30px;
+   
+    border: 2px solid white;
+}
+.hero{
+
+  flex-direction: column-reverse;
+  
+  margin: 3px;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.nome{
+    
+    font-family: 'jv', Times, serif;
+    color: #f6f3f3;
+}
+
+.foto2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    top: 20px;
+    
+    
+}
+
+@font-face {
+    font-family: jv ;
+    src: url(K2D-Bold.ttf);
+}
+
+.mim{
+    font-family: 'jv', Times, serif;
+    text-align: center;
+    font-size: 1.8vw;
+}
+
+html {
+    min-height: 100%;
+    background-image: linear-gradient(to right top, #03132c, #69a6ca, #105e82, #4c94ac, #4016e6);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+ }
+
+#curiosidades{
+    font-size: 5vw;
+    font-family: 'jv', Times, serif;
+    color: #03132c;
+
+}
+.tabela{
+    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'jv', Times, serif;
+  font-size: 2vw;
+  justify-content: space-around;
+}
+
+
+.lista{
+    background-image: url(https://img.freepik.com/fotos-premium/imagem-de-fundo-de-arte-abstrata-de-natureza-anime_739292-1767.jpg);
+    height: 40vw;
+    width: 40vw;
+    text-align: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+}
+.anime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+}
+.lista2{
+    background-image: url(https://i.pinimg.com/736x/65/ed/ad/65edad4305b95ad2643cf5ac3cadce03--haikyuu-manga-anime.jpg);
+    height:40vw;
+    width: 40vw;
+    text-align: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    align-items: center;
+}
+
+a:link {
+    text-decoration:none;
+}
+a:visited {
+text-decoration:none;
+}
+a:hover {
+text-decoration:underline; 
+}
+.esporte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+}
+.lista3{
+    background-image: url(https://pbs.twimg.com/media/ExF81cpW8AYXZ_V.jpg);
+    height: 40vw;
+    width: 40vw;
+    text-align: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.comida{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+}
+.lista4{
+    background-image: url(https://i.pinimg.com/1200x/54/f2/6b/54f26bd507cec090d61103f8978c3d25.jpg);
+    height: 40vw;
+    width: 40vw;
+    text-align: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.musicas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+}
+.alinhar1{
+    
+}
+.lista5{
+    background-image: url(https://www.livrariasfamiliacrista.com.br/media/catalog/product/cache/1/image/800x/56819907b1c49a4bc751319b3fccb0da/s/e/sem-ti_tulo-2_6_17.jpg);
+    height: 40vw;
+    width: 40vw;
+    text-align: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.livro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+}
+.alinhar2{
+    
+    
+}
+.fundo{
+    text-align: center;
+    font-family: 'jv', Times, serif;
+    font-size: 2vw;
+}
+
+#animes{
+    font-size: 4vw;
+    color: white;
+}
+
+#esporte{
+    font-size: 4vw;
+    color: white;
+}
+#comida{
+    font-size: 4vw;
+    color: white;
+}
+#musica{
+    font-size: 4vw;
+    color: white;
+}
+#livro{
+    font-size: 4vw;
+    color: white;
+}
+p{
+    font-family: 'jv', Times, serif;
+    font-size: 3vw;
 }
