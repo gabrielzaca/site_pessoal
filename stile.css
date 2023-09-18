@@ -194,9 +194,7 @@ text-decoration:underline;
     align-items: center;
     font-size: 4vw;
 }
-.alinhar1{
-    
-}
+
 .lista5{
     background-image: url(https://www.livrariasfamiliacrista.com.br/media/catalog/product/cache/1/image/800x/56819907b1c49a4bc751319b3fccb0da/s/e/sem-ti_tulo-2_6_17.jpg);
     height: 40vw;
@@ -212,7 +210,14 @@ text-decoration:underline;
     font-size: 4vw;
 }
 .alinhar2{
-    
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: min-content;
+    height: 100vw;
+    width: 100vw;
     
 }
 .fundo{
@@ -245,4 +250,22 @@ text-decoration:underline;
 p{
     font-family: 'jv', Times, serif;
     font-size: 3vw;
+}
+.foter{
+    background-color: #03132c;
+}
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+    
+}
+footer{
+    background-color: #03132c;
+    background-size: cover;
+    text-align: center;
+    
+    padding: 60px 0;
 }
