@@ -1,7 +1,14 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
 .barra{
     position: fixed;
-    top: 0;
-    left: 0;
+    
     width: 100%;
     border-radius: 1px;
     background-color: #000767;
@@ -23,7 +30,7 @@
     
     font-family: 'jv', Times, serif;
     font-size: 1.5vw;
-    margin-bottom: 30px;
+   
    
     color: rgb(4, 0, 0);
    
@@ -79,13 +86,14 @@ html{
     
     font-family: 'jv', Times, serif;
     color: #f6f3f3;
+    margin-top: 30px;
 }
 
 .foto2{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    top: 20px;
+   
     
     
 }
@@ -106,7 +114,7 @@ html {
     background-image: linear-gradient(to right top, #03132c, #69a6ca, #105e82, #4c94ac, #4016e6);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position:  center;
  }
 
 #curiosidades{
@@ -122,17 +130,19 @@ html {
   align-items: center;
   font-family: 'jv', Times, serif;
   font-size: 2vw;
-  justify-content: space-around;
+ 
 }
 
 
 .lista{
     background-image: url(https://img.freepik.com/fotos-premium/imagem-de-fundo-de-arte-abstrata-de-natureza-anime_739292-1767.jpg);
-    height: 40vw;
+    height: 100vw;
     width: 40vw;
     text-align: center;
     background-repeat: no-repeat;
     border-radius: 10px;
+   
+   
     
 }
 .anime{
@@ -143,12 +153,13 @@ html {
 }
 .lista2{
     background-image: url(https://i.pinimg.com/736x/65/ed/ad/65edad4305b95ad2643cf5ac3cadce03--haikyuu-manga-anime.jpg);
-    height:40vw;
+    height:100vw;
     width: 40vw;
     text-align: center;
     background-repeat: no-repeat;
     border-radius: 10px;
-    align-items: center;
+   
+  
 }
 
 a:link {
@@ -168,11 +179,12 @@ text-decoration:underline;
 }
 .lista3{
     background-image: url(https://pbs.twimg.com/media/ExF81cpW8AYXZ_V.jpg);
-    height: 40vw;
+    height: 100vw;
     width: 40vw;
     text-align: center;
     background-repeat: no-repeat;
     border-radius: 10px;
+    
 }
 .comida{
     display: flex;
@@ -182,11 +194,12 @@ text-decoration:underline;
 }
 .lista4{
     background-image: url(https://i.pinimg.com/1200x/54/f2/6b/54f26bd507cec090d61103f8978c3d25.jpg);
-    height: 40vw;
+    height: 100vw;
     width: 40vw;
     text-align: center;
     background-repeat: no-repeat;
     border-radius: 10px;
+   
 }
 .musicas{
     display: flex;
@@ -197,11 +210,12 @@ text-decoration:underline;
 
 .lista5{
     background-image: url(https://www.livrariasfamiliacrista.com.br/media/catalog/product/cache/1/image/800x/56819907b1c49a4bc751319b3fccb0da/s/e/sem-ti_tulo-2_6_17.jpg);
-    height: 40vw;
+    height: 100vw;
     width: 40vw;
     text-align: center;
     background-repeat: no-repeat;
     border-radius: 10px;
+    
 }
 .livro{
     display: flex;
@@ -209,17 +223,10 @@ text-decoration:underline;
     align-items: center;
     font-size: 4vw;
 }
-.alinhar2{
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    width: min-content;
-    height: 100vw;
-    width: 100vw;
-    
-}
+
+
+   
+
 .fundo{
     text-align: center;
     font-family: 'jv', Times, serif;
@@ -259,7 +266,7 @@ footer {
 	color: #fff;
 	padding: 20px;
 	text-align: center;
-	margin-top: 50px;
+	
     
 }
 footer{
@@ -267,5 +274,75 @@ footer{
     background-size: cover;
     text-align: center;
     
-    padding: 60px 0;
+   
+}
+.alinhar{
+    
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    width: min-content;
+    height: 100vw;
+    width: 100vw;
+}
+#causo{
+    text-align: center;
+    font-size: 4vw;
+    color: white;
+    font-family: 'jv', Times, serif;
+}
+.historia{
+    text-align: center;
+}
+#habilidades{
+    text-align: center;
+    color: white;
+    font-family: 'jv', Times, serif;
+    font-size: 4vw;
+}
+.hab{
+    text-align: center;
+}
+table.linhasAlternadas {
+    border-collapse: collapse;
+    background: #1385ae;
+    border: solid rgb(0, 0, 0) 3px;
+    
+}
+ 
+table.linhasAlternadas tr:nth-child(even){
+    background: #2310ce;
+}
+.historico{
+    display: grid;
+    justify-content: center;
+    table-layout: fixed;
+    text-align: center;
+}
+td{
+
+    font-family: 'jv', Times, serif;
+}
+#historico{
+    font-family: 'jv', Times, serif;
+    color: white;
+    font-size: 4vw;
+}
+.pé{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.social{
+    font-size: 2vw;
+    font: bolder;
+    color: black;
+}
+#redes_sociais{
+    font-size: 3vw;
 }
